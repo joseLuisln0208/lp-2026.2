@@ -55,6 +55,6 @@ public class jogo
 
     public String toString()
     {
-        return ("O jogo entre " + nometime1 + " e " + nometime2 + " teve o placar de: " + numGolsTime1 + " a "+ numGolsTime2);
+        return ("O jogo entre " + nometime1 + " e " + nometime2 + " teve o placar de " + numGolsTime1 + " a "+ numGolsTime2);
     }
 }
