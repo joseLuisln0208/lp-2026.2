@@ -1,4 +1,4 @@
-package br.ufpb.dcx.luis.jose.atividades;
+package br.ufpb.dcx.luis.jose.atividades.exercicio1;
 import javax.swing.*;
 
 public class printOi

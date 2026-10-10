@@ -1,4 +1,4 @@
-package br.ufpb.dcx.luis.jose.atividades;
+package br.ufpb.dcx.luis.jose.atividades.exercico3;
 import java.lang.Math;
 import java.util.Scanner;
 
