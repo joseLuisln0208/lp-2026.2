@@ -3,10 +3,10 @@ package br.ufpb.dcx.luis.jose.appDeMusicas;
 public class Faixa
 {
     public String nomeDaFaixa;
-    public Float tempo;
+    public String tempo;
     public Album album;
 
-    public Faixa(String nomeDaFaixa, Float tempo, Album album)
+    public Faixa(String nomeDaFaixa, String tempo, Album album)
     {
         this.nomeDaFaixa = nomeDaFaixa;
         this.tempo = tempo;
@@ -15,6 +15,6 @@ public class Faixa
 
     public Faixa()
     {
-        this("null", -1f, new Album());
+        this("null", "--:--", new Album());
     }
 }

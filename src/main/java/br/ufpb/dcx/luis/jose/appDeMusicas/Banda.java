@@ -3,10 +3,10 @@ package br.ufpb.dcx.luis.jose.appDeMusicas;
 public class Banda
 {
     public String nomeDaBanda;
-    public Membro[] membrosDaBanda;
     public String dataDeEstreia;
+    public Membro[] membrosDaBanda;
 
-    public Banda(String nomeDaBanda, Membro[] membrosDaBanda, String dataDeEstreia)
+    public Banda(String nomeDaBanda, String dataDeEstreia, Membro[] membrosDaBanda)
     {
         this.nomeDaBanda = nomeDaBanda;
         this.membrosDaBanda = membrosDaBanda;
@@ -14,6 +14,6 @@ public class Banda
     }
     public Banda()
     {
-        this("null", new Membro[0], "DD/MM/AAAA");
+        this("null", "DD/MM/AAAA", new Membro[0]);
     }
 }
