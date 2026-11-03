@@ -7,31 +7,41 @@ public class AplicativoDeMusicas
 
     public static void main(String[] args)
     {
-        System.out.println("Informe quantas músicas");
-
+        boolean whileFicar = true;
         Scanner leitor = new Scanner(System.in);
-        quantasMusicas = Integer.parseInt(leitor.nextLine());
-
-        Faixa[] faixas = new Faixa[quantasMusicas];
-
-        for(int i = 0; i < quantasMusicas; i++)
+        while(whileFicar)
         {
-            System.out.println("Insira o nome da FAIXA" + (i + 1) + ":");
-            String nomeDaFaixa = leitor.nextLine();
-
-            System.out.println("Insira quanto tempo tem a FAIXA" + (i + 1) + "(MM:SS):");
-            String tempoDaFaixa = leitor.nextLine();
-
-            faixas[i] = new Faixa(nomeDaFaixa, tempoDaFaixa, criadorDeAlbum(leitor));
-        }
-        while(true)
-        {
-            if(leitor.nextLine().equalsIgnoreCase("s"))
+            System.out.printf("%nO que deseja fazer agora?%n1 - Criar%n2 - pesquisar%n3 - salvar%n4 - sair%n");
+            int resposta = Integer.parseInt(leitor.nextLine());
+            if(resposta == 1)
             {
-                break;
+                criar(leitor);
+            }
+            else if(resposta == 2)
+            {
+
+            }
+            else if(resposta == 3)
+            {
+
+            }
+            else if(resposta == 4)
+            {
+
+            }
+            else
+            {
+                System.out.printf("%nEssa não é uma resposta válida%n");
             }
         }
         leitor.close();
+    }
+
+    public static void criar(Scanner leitor)
+    {
+        System.out.printf("%nO que você quer criar?%n1 - Banda%n2 - Album%n3 - musica%n4 - sair%n");
+        String nome = leitor.nextLine();
+        return;
     }
 
     public static Album criadorDeAlbum(Scanner leitor)
