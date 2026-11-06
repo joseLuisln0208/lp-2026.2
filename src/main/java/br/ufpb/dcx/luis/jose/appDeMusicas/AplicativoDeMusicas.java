@@ -41,7 +41,7 @@ public class AplicativoDeMusicas
         leitor.close();
     }
 
-    //Todos os métodos usados pra criar algo novo teste
+    //Todos os métodos usados pra criar algo novo teste 2
     public static void criar(Scanner leitor)
     {
         print("%nO que você quer criar?%n1 - Banda%n2 - Album%n3 - musica%n4 - sair%n");
