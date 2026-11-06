@@ -2,18 +2,16 @@ package br.ufpb.dcx.luis.jose.appDeMusicas;
 
 public class Album
 {
-    public String nomeDoAlbum;
-    public String dataDeLancamento;
-    public Banda banda;
+    private String nomeDoAlbum;
+    private String dataDeLancamento;
 
-    public Album(String nomeDoAlbum, String dataDeLancamento, Banda banda)
+    public Album(String nomeDoAlbum, String dataDeLancamento)
     {
         this.nomeDoAlbum = nomeDoAlbum;
         this.dataDeLancamento = dataDeLancamento;
-        this.banda = banda;
     }
     public Album()
     {
-        this("null", "DD/MM/AAAA", new Banda());
+        this("null", "DD/MM/AAAA");
     }
 }

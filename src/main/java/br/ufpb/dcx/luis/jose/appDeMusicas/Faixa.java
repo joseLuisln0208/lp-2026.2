@@ -2,9 +2,9 @@ package br.ufpb.dcx.luis.jose.appDeMusicas;
 
 public class Faixa
 {
-    public String nomeDaFaixa;
-    public String tempo;
-    public Album album;
+    private String nomeDaFaixa;
+    private String tempo;
+    private Album album;
 
     public Faixa(String nomeDaFaixa, String tempo, Album album)
     {

@@ -2,9 +2,9 @@ package br.ufpb.dcx.luis.jose.appDeMusicas;
 
 public class Membro
 {
-    public String nomeDoMembro;
-    public String dataDeNascimento;
-    public String paisDeNascimento;
+    private String nomeDoMembro;
+    private String dataDeNascimento;
+    private String paisDeNascimento;
 
     public Membro(String nomeDoMembro, String dataDeNascimento, String paisDeNascimento)
     {

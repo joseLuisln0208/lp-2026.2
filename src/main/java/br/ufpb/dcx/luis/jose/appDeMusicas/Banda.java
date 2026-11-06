@@ -2,17 +2,17 @@ package br.ufpb.dcx.luis.jose.appDeMusicas;
 
 public class Banda
 {
-    public String nomeDaBanda;
-    public String dataDeEstreia;
-    public Membro[] membrosDaBanda;
-    public Album[] albuns;
+    private String nomeDaBanda;
+    private String dataDeEstreiaDaBanda;
+    private Membro[] membrosDaBanda;
+    private Album[] albunsDaBanda;
 
-    public Banda(String nomeDaBanda, String dataDeEstreia, Membro[] membrosDaBanda, Album[] albuns)
+    public Banda(String nomeDaBanda, String dataDeEstreiaDaBanda, Membro[] membrosDaBanda, Album[] albunsDaBanda)
     {
         this.nomeDaBanda = nomeDaBanda;
         this.membrosDaBanda = membrosDaBanda;
-        this.dataDeEstreia = dataDeEstreia;
-        this.albuns = albuns;
+        this.dataDeEstreiaDaBanda = dataDeEstreiaDaBanda;
+        this.albunsDaBanda = albunsDaBanda;
     }
     public Banda()
     {
