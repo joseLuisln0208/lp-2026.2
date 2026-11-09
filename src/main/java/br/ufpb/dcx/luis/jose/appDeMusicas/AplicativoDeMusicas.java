@@ -31,7 +31,7 @@ public class AplicativoDeMusicas
             }
             else if(resposta == '5')
             {
-
+                whileFicar = false;
             }
             else
             {

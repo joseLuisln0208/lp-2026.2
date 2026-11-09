@@ -1,4 +1,4 @@
-package br.ufpb.dcx.luis.jose.jogos;
+package br.ufpb.dcx.luis.jose.atividades.aulas.jogos;
 
 public class jogo
 {
